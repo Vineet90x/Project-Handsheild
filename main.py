@@ -2,8 +2,8 @@ import cv2 as cv
 import mediapipe as mp
 from functions import position_data, calculate_distance, draw_line, asd
 
-INNER_CIRCLE = "GITHUB- LMS_ DATA - ANALYSIS -LEVEL 2\\SESSION 3 - PROJECT new RK\\Models\\inner_circles\\light_orange.png"
-OUTER_CIRCLE = "GITHUB- LMS_ DATA - ANALYSIS -LEVEL 2\\SESSION 3 - PROJECT new RK\\Models\\outer_circles\\orange.png"
+INNER_CIRCLE = "Models\\inner_circles\\light_orange.png"
+OUTER_CIRCLE = "Models\\outer_circles\\orange.png"
 
 # Camera Setup
 cap = cv.VideoCapture(0)
